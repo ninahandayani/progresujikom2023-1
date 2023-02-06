@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div onclick="handleMenu('satu')">Menu1</div>
+    <div onclick="handleMenu('dua')">Menu2</div>
+    <div onclick="handleMenu('tiga')">Menu3</div>
+    <hr />
+    <div class="item" id="menu1">ISI1</div>
+    <div class="item hidden" >ISI2</div>
+    <div class="item hidden">ISI3</div>
+    <script>
+        // function handleMenu(param) {
+        //     const elBaru = document.querySelectorAll(".item - id");
+        //     console.log(param);
+
+        //     if( param === 'satu'){
+        //         //untuk menu 1
+        //         elBaru.forEach((elemen ,index) => { 
+        //             if (index != 0){ 
+        //                 elemen.classList.add("hidden");
+        //             } else {
+        //                 elemen.classList.remove("hidden");
+        //             }          
+        //             // index adalah untuk menunjukan array
+        //         });    
+        //     } else if( param === 'dua'){
+        //         // untuk menu 2
+        //         elBaru.forEach((elemen ,index) => {
+        //             if (index !=1){
+        //                 elemen.classList.add("hidden");
+        //             } else {
+        //                 elemen.classList.remove("hidden");
+        //             }     
+        //         });
+        //     } else {
+        //          //  ini untuk  menu 3
+        //         elBaru.forEach((elemen ,index) => {
+        //             if(index !=2){
+        //                 elemen.classList.add("hidden");
+        //             }else {
+        //                 elemen.classList.remove("hidden");
+        //             }
+        //         });
+               
+        //     }
+            
+        // //     const elementMenu1 = document.getElementById("menu1");
+        // //     elementMenu1.style.color ="red";
+        // //     elementMenu1.style.backgroundColor ="black";
+        // //     return console.log(elementMenu1);
+        // //
+        // console.log(elBaru);
+        // }
+        //  const datafromApi = fetch("https://jsonplaceholder.typicode.com/users");
+        //  const respons = datafromApi ();
+        //  console.log(datafromApi);
+        //  setTimeout(() => {
+        //     console.log(datafromApi);
+        //  }, 3
+    </script>
+</body>
+</html>
